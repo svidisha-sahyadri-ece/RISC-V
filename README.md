@@ -214,6 +214,20 @@ spike -d pk factorial.o
 
 ### Circuit 
 
+![](https://github.com/svidisha-sahyadri-ece/RISC-V/blob/dedc2febbef1254da9d903c538b8ba25f91c6495/riscv%20task5/Temperature%20and%20Humidity%20Monitor.png?raw=true)
+
+## Pin Details
+
+| Component | Pin on RISC-V  Board | Pin on component | Description |
+|----------|-----------------------|------------------|--------------|
+| DHT11 Sensor | 3.3V | VCC | Power |
+|              | GND | GND | Ground |
+|              | PC0 | Data | Data Signal |
+| OLED Display | 3.3V | VCC | Power |
+|               | GND | GND | Ground |
+|               | PC4 | SDA | I2C Data|
+|               | PC5 | SCL | I2C Clock |
+
 
 
   
