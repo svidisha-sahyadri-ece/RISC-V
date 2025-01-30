@@ -72,6 +72,8 @@ riscv64-unknown-elf-objdump -d sum1ton.o | less
 riscv64-unknown-elf-gcc -O1 -mabi=lp64 -march=rv64i -o sum1ton.o sum1ton.c
 riscv64-unknown-elf-gcc -Ofast -mabi=lp64 -march=rv64i -o sum1ton.o sum1ton.c
 ```
+![o1](https://github.com/svidisha-sahyadri-ece/RISC-V/blob/25a3f2c6fefe88f40845cd8ead96d9261242dad4/riscv%20task1/riscv%20task1(o1).png?raw=true)
+![ofast](
 </details>
 <details>
 <summary> Task 2- Simulation with spike</summary>
