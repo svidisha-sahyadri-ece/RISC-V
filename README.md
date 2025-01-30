@@ -91,6 +91,7 @@ spike pk factorial.o
 ```bash
 riscv64-unknown-elf-gcc -Ofast -mabi=lp64 -march=rv64i -o factorial.o factorial.c
 ```
+![ofast](https://github.com/svidisha-sahyadri-ece/RISC-V/blob/c10220a6e5c3860fa788bd6f9c167d3caa478bd6/riscv%20task2/riscv%20task2(ofast).png?raw=true)
 
 ### Step 3: Generate an object dump
 ```bash
