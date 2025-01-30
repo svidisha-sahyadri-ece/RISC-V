@@ -85,6 +85,7 @@ Test Spike by running a sample program (e.g. factorial.c) using both gcc compile
 ```bash
 spike pk factorial.o
 ```
+![spike pk factorial.o](https://github.com/svidisha-sahyadri-ece/RISC-V/blob/71885a4a4432fa4460bd5cad79bfebe032704a57/riscv%20task2/riscv%20task2%20spike.png?raw=true)
 
 ### Step 2: Compile with the optimization level Ofast
 ```bash
