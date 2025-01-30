@@ -1,5 +1,12 @@
 # RISC-V Talent development Program
 
+## About Me
+Name: S VIDISHA
+
+College: Sahyadri College Of Engineering and Management
+
+Email ID: vidisha.ec23@sahyadri.edu.in
+
 This project is based on the RISC V talent development program.
 ***
 <details>
@@ -96,7 +103,7 @@ spike -d pk factorial.o
 </details>
 
 <details>
-<summary> Task 3 </summary>
+<summary> Task 3- RISC-V Instructions and their Encodings</summary>
 
 ## 15 Unique RISC-V Instructions and thier 32- Bit encodings:
 
@@ -164,3 +171,54 @@ spike -d pk factorial.o
 
 
 </details>
+<details>
+  <summary>Task 4 - Functional Simulation of RISC-V Core</summary>
+  
+  ### Step 1: Create a directory
+
+  ### Step 2: Create the verilog files using touch command
+
+  ### Step 3: locate the Files created and paste the code from <a href="https://github.com/vinayrayapati/rv32i/blob/main/?> repo</a>
+  Get the Verilog netlist from <a href="https://github.com/vinayrayapati/rv32i/blob/main/iiitb_rv32i.v">RISC-V Core Verilog Netlist.</a>
+  Get the testbench from<a href="https://github.com/vinayrayapati/rv32i/blob/main/iiitb_rv32i_tb.v">Testbench for RISC-V Core.
+
+  ### Step 4: Compile the Files
+
+  ### Step 5: Run the Files
+
+  ### Step 6: Open the Files in GTKWave 
+
+  ### Step 7: Add signals to GTKWave
+</details>
+
+<details>
+  <summary> Task 5 - Project Overview</summary>
+
+  ## RISC-V Based Temperature and Humidity Monitor
+
+  A simple project using RISC-V board to measure and display temperature and humidity using a DHT11 sensor and an OLED display.
+
+  ## Features
+
+  - Real-time temperature and Humidity display
+  - Low power consumption
+  - can be expanded for IOT applications
+
+### Components Required
+
+- RISC-V Board (e.g., sipeed Longan Nano / HiFive1)
+- DHT11 Temperature and Humidity Sensor (SSD1306, I2C)
+- 0.96 OLED Display 
+- Jumper Wires
+- 5V Power Supply (USB or Battery)
+
+### Circuit 
+
+
+
+  
+
+
+  
+</details>
+
