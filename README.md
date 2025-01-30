@@ -102,6 +102,7 @@ riscv64-unknown-elf-objdump -d factorial.o | less
 ```bash
 spike -d pk factorial.o
 ```
+![spike debug](https://github.com/svidisha-sahyadri-ece/RISC-V/blob/32002c59a82fd30363c7afccc572cbbbb0aa2b0f/riscv%20task2/riscv%20task2%20spike(debug).png?raw=true)
 
 
   
