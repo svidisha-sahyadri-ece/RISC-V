@@ -36,7 +36,7 @@ leafpad sum1ton.c &
 ```c
 #include<stdio.h>
 int main() {
-int i,sum=0,n=5;
+int i,sum=0,n=100;
 for(i=1;i<=n;i++) {
 sum += i;
 }
@@ -50,6 +50,7 @@ return 0;
 gcc sum1ton.c
 ./a.out
 ```
+![./a.out](https://github.com/svidisha-sahyadri-ece/RISC-V/blob/a9a64d642f8114aba339ff1b65eff1dd96f5016b/riscv%20task1/riscv%20task1(sum1ton).png?raw=true)
 
 ### Step 6: compile the program in Assembly
 ```bash
