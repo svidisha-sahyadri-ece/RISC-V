@@ -1,0 +1,62 @@
+15 Unique RISC-V Instructions and their 32- Bit encodings:
+RISC-V instructions and their Encodings
+auipc a5,0xffff0
+
+Type: U-Type
+Binary Encoding: 11111111111111110000011110010111
+addi a5,a5,-176
+
+Type: I-Type
+Binary Encoding: 11110101000001111000011110010011
+beqz a5,100c8
+
+Type: B-Type
+Binary Encoding: 00000000000001111000100001100011
+auipc a0,0x0
+
+Type: U-Type
+Binary Encoding: 00000000000000000000010100010111
+addi a0,a0,424
+
+Type: I-Type
+Binary Encoding: 00010100100001010000010100010011
+j 1021c
+
+Type: J-Type
+Binary Encoding: 00010101100000000000000001101111
+ret
+
+Type: I-Type
+Binary Encoding: 00000000000000001000000001100111
+auipc gp,0x13
+
+Type: U-Type
+Binary Encoding: 00000000000000010011000110010111
+addi gp,gp,-1732
+
+Type: I-Type
+Binary Encoding: 10010011110000011000000110010011
+addi a0,gp,1904
+
+Type: I-Type
+Binary Encoding: 01110111000000011000010100010011
+auipc a2,0x13
+
+Type: U-Type
+Binary Encoding: 00000000000000010011011000010111
+addi a2,a2,304
+
+Type: I-Type
+Binary Encoding: 00010011000001100000011000010011
+sub a2,a2,a0
+
+Type: R-Type
+Binary Encoding: 01000000001001100000011000110011
+li a1,0
+
+Type: I-Type
+Binary Encoding: 00000000000000000000010110010011
+jal ra,10354
+
+Type: J-Type
+Binary Encoding: 00100110110000000000000011101111
