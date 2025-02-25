@@ -239,6 +239,8 @@ spike -d pk factorial.o
 
   ### PhotoDiode Based Flame Detector
 
+  https://github.com/svidisha-sahyadri-ece/RISC-V/tree/234500a4ee2f75005126bf02abe6fb6f82506c53/riscv%20task6
+
   
 
  
