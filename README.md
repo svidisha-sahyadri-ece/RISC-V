@@ -203,23 +203,22 @@ spike -d pk factorial.o
 <details>
   <summary> Task 5 - Project Overview</summary>
 
-  ## RISC-V Based Temperature and Humidity Monitor
-
-  A simple project using RISC-V board to measure and display temperature and humidity using a DHT11 sensor and an OLED display.
+  ## RISC-V PhotoDiode Based Flame Detector
+  A simple project which uses the Flame sensor to detect the fire and triggers a buzzer and led as an alert system when flame is detected.
 
   ## Features
 
-  - Real-time temperature and Humidity display
-  - Low power consumption
-  - can be expanded for IOT applications
+  - Flame Detection
+  - Buzzer alert
+  - LED indicator
 
 ### Components Required
 
-- RISC-V Board (e.g., sipeed Longan Nano / HiFive1)
-- DHT11 Temperature and Humidity Sensor (SSD1306, I2C)
-- 0.96 OLED Display 
-- Jumper Wires
-- 5V Power Supply (USB or Battery)
+- VSDQuadron Mini
+- Flame Sensor
+- Buzzer
+- Led
+- Breadboard
 
 ### Circuit 
 
