@@ -222,19 +222,18 @@ spike -d pk factorial.o
 
 ### Circuit 
 
-![](https://github.com/svidisha-sahyadri-ece/RISC-V/blob/dedc2febbef1254da9d903c538b8ba25f91c6495/riscv%20task5/Temperature%20and%20Humidity%20Monitor.png?raw=true)
-
+![](https://github.com/svidisha-sahyadri-ece/RISC-V/blob/8e3971d3ff53d4c88fe7a100352195368e60388f/riscv%20task5/Photodiode%20based%20flame%20detector.png)
 ## Pin Details
 
-| Component | Pin on RISC-V  Board | Pin on component | Description |
-|----------|-----------------------|------------------|--------------|
-| DHT11 Sensor | 3.3V | VCC | Power |
-|              | GND | GND | Ground |
-|              | PC0 | Data | Data Signal |
-| OLED Display | 3.3V | VCC | Power |
-|               | GND | GND | Ground |
-|               | PC4 | SDA | I2C Data|
-|               | PC5 | SCL | I2C Clock |
+| Component | Pin on RISC-V  Board | Pin on component |
+|----------|-----------------------|------------------|
+| Flame Sensor | 5V | VCC | 
+|              | GND | GND |
+|              | PA2 | DO | 
+| Buzzer       | PC0 | + (Positive) | 
+|               | GND | - (Negative)| 
+| Led           | PC1 | + (Anode)| 
+|               | GND | - (Cathode) |
 </details>
 <details>
   <summary> Task 6 - Working Prototype </summary>
